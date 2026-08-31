@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #f5f0ea;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  *:focus-visible {
+    outline: 3px solid #2d6a4f;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  .btn-elderly {
+    @apply min-h-[56px] px-6 py-3 text-elderly-base font-semibold rounded-2xl 
+           transition-all duration-200 active:scale-[0.97] 
+           flex items-center justify-center gap-3 cursor-pointer select-none;
+  }
+
+  .btn-primary {
+    @apply btn-elderly bg-primary-500 text-white hover:bg-primary-600 
+           shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply btn-elderly bg-white text-primary-700 border-2 
+           hover:bg-primary-50 hover:border-primary-400;
+    border-color: #e0d4c4;
+  }
+
+  .btn-danger {
+    @apply btn-elderly bg-red-600 text-white hover:bg-red-700 
+           shadow-lg;
+  }
+
+  .btn-success {
+    @apply btn-elderly bg-accent-500 text-white hover:bg-accent-600 
+           shadow-lg;
+  }
+
+  .card-elderly {
+    @apply bg-white rounded-3xl p-6 shadow-sm;
+    border: 1px solid #e0d4c4;
+  }
+
+  .card-interactive {
+    @apply card-elderly hover:shadow-md 
+           transition-all duration-200 cursor-pointer active:scale-[0.98];
+    border-color: #e0d4c4;
+  }
+
+  .input-elderly {
+    @apply w-full min-h-[56px] px-5 py-3 text-elderly-base rounded-2xl 
+           border-2 bg-white 
+           focus:border-primary-500 focus:ring-2 focus:ring-primary-200 
+           outline-none transition-all duration-200;
+    border-color: #e0d4c4;
+  }
+
+  .nav-item {
+    @apply flex flex-col items-center gap-1 p-2 rounded-2xl 
+           text-gray-400 hover:text-primary-500 hover:bg-primary-50 
+           transition-all duration-200 min-w-[72px];
+  }
+
+  .nav-item.active {
+    @apply text-primary-500 bg-primary-50 font-semibold;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold;
+  }
+
+  .badge-success {
+    @apply badge bg-green-100 text-green-700;
+  }
+
+  .badge-warning {
+    @apply badge bg-amber-100 text-amber-700;
+  }
+
+  .badge-danger {
+    @apply badge bg-red-100 text-red-700;
+  }
+
+  .badge-info {
+    @apply badge bg-blue-100 text-blue-700;
+  }
+
+  .page-container {
+    @apply max-w-5xl mx-auto px-4 pb-24 pt-4;
+  }
+
+  .slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .fade-in {
+    animation: fadeIn 0.4s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c8b8a4;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a89880;
+}
