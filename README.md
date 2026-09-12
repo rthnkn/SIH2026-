@@ -1,4 +1,4 @@
-# 🧠 MindCare AI — Smarter Care. Simpler Days. Better Ageing.
+#  MindCare AI — Smarter Care. Simpler Days. Better Ageing.
 
 **AI-Based Cognitive Gaming and Memory Assistance Platform for Elderly Dementia Patients in the North Eastern Region (NER)**
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [About](#about)
 - [Problem Statement](#problem-statement)
@@ -40,11 +40,11 @@ MindCare AI is a comprehensive, AI-powered elderly care and cognitive assistance
 
 **SIH26003** addresses the critical challenges faced by elderly dementia patients in the North Eastern Region:
 
-- 🧠 **Cognitive Decline** — Memory loss and reduced cognitive function affect daily life
-- 💊 **Medication Mismanagement** — Complex schedules lead to missed doses and health complications
-- 👨‍👩‍👦 **Caregiver Burden** — Family members struggle to provide 24/7 monitoring remotely
-- 🌐 **Low Connectivity** — Remote areas lack reliable internet for digital health tools
-- 🗣️ **Language Barriers** — Most health apps don't support NER regional languages
+-  **Cognitive Decline** — Memory loss and reduced cognitive function affect daily life
+-  **Medication Mismanagement** — Complex schedules lead to missed doses and health complications
+-  **Caregiver Burden** — Family members struggle to provide 24/7 monitoring remotely
+-  **Low Connectivity** — Remote areas lack reliable internet for digital health tools
+-  **Language Barriers** — Most health apps don't support NER regional languages
 
 ---
 
@@ -55,30 +55,30 @@ MindCare AI tackles every aspect of SIH26003 with a dual-interface platform:
 ### Patient Side
 | Page | Description |
 |------|-------------|
-| 🏠 **Dashboard** | Personalized greeting, today's care overview, quick actions |
-| 💊 **My Medicines** | Full medication CRUD, timeline, mark taken/skipped, reminders |
-| 🧠 **Brain Care Hub** | Today's cognitive plan + 4 interactive games |
-| 🎮 **Memory Match** | Flip-card matching with score, accuracy, adaptive difficulty |
-| 🎯 **Pattern Recognition** | Sequence completion with multiple-choice |
-| 🖼️ **Object Recognition** | NER-focused familiar objects identification |
-| 📋 **Routine Recall** | Daily routine-based questions with scoring |
-| 📅 **Daily Routine** | Visual timeline with toggle completion |
-| 💧 **Hydration** | Water glass visualization, +Drink button, daily log |
-| 📆 **Appointments** | Add/edit/delete, upcoming/past tabs |
-| 🔊 **Voice Assistant** | Speech recognition + synthesis, text fallback |
-| 📊 **Progress** | Cognitive analytics with 7-day chart, difficulty breakdown |
-| ⚙️ **Settings** | Language selector (EN/HI/AS/BN), profile, security |
+|  **Dashboard** | Personalized greeting, today's care overview, quick actions |
+|  **My Medicines** | Full medication CRUD, timeline, mark taken/skipped, reminders |
+|  **Brain Care Hub** | Today's cognitive plan + 4 interactive games |
+|  **Memory Match** | Flip-card matching with score, accuracy, adaptive difficulty |
+|  **Pattern Recognition** | Sequence completion with multiple-choice |
+|  **Object Recognition** | NER-focused familiar objects identification |
+|  **Routine Recall** | Daily routine-based questions with scoring |
+|  **Daily Routine** | Visual timeline with toggle completion |
+|  **Hydration** | Water glass visualization, +Drink button, daily log |
+|  **Appointments** | Add/edit/delete, upcoming/past tabs |
+|  **Voice Assistant** | Speech recognition + synthesis, text fallback |
+|  **Progress** | Cognitive analytics with 7-day chart, difficulty breakdown |
+|  **Settings** | Language selector (EN/HI/AS/BN), profile, security |
 
 ### Caregiver Side
 | Page | Description |
 |------|-------------|
-| 📊 **Dashboard** | Patient overview, 4 key metrics, weekly chart, active alerts |
-| 👤 **Patients** | Assigned patient list with stats |
-| 💊 **Medications** | Weekly adherence analytics, per-medication breakdown |
-| 🧠 **Cognitive** | Performance trends, activity breakdown, difficulty distribution |
-| 🔔 **Alerts** | Filter by status/severity, resolve/dismiss actions |
-| 📄 **Reports** | Comprehensive weekly summary with trend comparisons |
-| ⚙️ **Settings** | Language, profile, security |
+|  **Dashboard** | Patient overview, 4 key metrics, weekly chart, active alerts |
+|  **Patients** | Assigned patient list with stats |
+|  **Medications** | Weekly adherence analytics, per-medication breakdown |
+|  **Cognitive** | Performance trends, activity breakdown, difficulty distribution |
+|  **Alerts** | Filter by status/severity, resolve/dismiss actions |
+|  **Reports** | Comprehensive weekly summary with trend comparisons |
+|  **Settings** | Language, profile, security |
 
 ---
 
@@ -138,7 +138,7 @@ npm run preview
 The app comes with a **fully pre-seeded demo mode** for instant hackathon judging.
 
 ### Quick Access (Landing Page)
-Click **"Load Demo Patient 🚀"** on the landing page to instantly load with sample data.
+Click **"Load Demo Patient "** on the landing page to instantly load with sample data.
 
 ### Manual Login
 
@@ -214,7 +214,7 @@ src/
 
 ## Features
 
-### 💊 Medication Management
+###  Medication Management
 - Add, edit, delete medications
 - Set dosage, frequency, scheduled times
 - Set start/end dates, instructions, notes
@@ -223,51 +223,51 @@ src/
 - Adherence tracking with percentage stats
 - Missed medication alerts for caregivers
 
-### 🧠 Cognitive Care (4 Games)
+###  Cognitive Care (4 Games)
 
-#### 🎮 Memory Match
+####  Memory Match
 Flip cards to find matching pairs. Tracks accuracy, attempts, completion time, and score. Difficulty adapts based on performance.
 
-#### 🎯 Pattern Recognition
+####  Pattern Recognition
 Identify the next element in a sequence (e.g., 🔵 🟢 🔵 🟢 ?). Multiple-choice answers with scoring.
 
-#### 🖼️ Object Recognition
+####  Object Recognition
 Identify familiar everyday objects with NER-relevant items (lotus, tea, bamboo, elephant). Includes hints system.
 
-#### 📋 Routine Recall
+####  Routine Recall
 Answer daily routine-based questions ("What do you usually do after breakfast?"). Tracks accuracy, response time, and score.
 
-### 📅 Daily Routine
+###  Daily Routine
 - Customizable activity timeline
 - Toggle completion for each activity
 - Visual progress indicators
 
-### 💧 Hydration Tracking
+###  Hydration Tracking
 - Configurable daily glass target
 - Large +DRINK WATER button
 - Visual glass visualization
 - Daily log with timestamps
 
-### 📆 Appointments
+###  Appointments
 - Add/edit/delete appointments
 - Doctor, hospital, date, time, notes
 - Upcoming and past tabs
 - Reminder functionality
 
-### 🔊 Voice Assistant
+###  Voice Assistant
 - Browser Speech Recognition for voice input
 - Speech Synthesis for spoken responses
 - Text input fallback
 - Queries actual application data
 - Answers medication, appointment, and routine questions
 
-### 📊 Progress & Analytics
+###  Progress & Analytics
 - 7-day cognitive performance chart
 - Activity difficulty breakdown
 - Score, accuracy, and response time trends
 - Medication adherence history
 
-### 🔔 Caregiver Alerts
+###  Caregiver Alerts
 - 🔴 Missed medication alerts
 - 🟡 Reduced activity performance
 - 🟡 Skipped activities
@@ -276,7 +276,7 @@ Answer daily routine-based questions ("What do you usually do after breakfast?")
 - Filter by status and severity
 - Resolve/dismiss actions
 
-### ⚙️ Settings
+###  Settings
 - Language selection (English, Hindi, Assamese, Bengali)
 - Profile information
 - Security info
@@ -301,9 +301,9 @@ MindCare AI uses a **performance-based cognitive adaptation system**:
 | Sudden drop | Keep manageable, flag trend for caregiver |
 
 ### Difficulty Levels
-- 🟢 **Easy** — 4-6 items, simple patterns, familiar objects
-- 🟡 **Medium** — 6-8 items, moderate patterns, varied objects
-- 🔴 **Hard** — 8-12 items, complex patterns, challenge objects
+-  **Easy** — 4-6 items, simple patterns, familiar objects
+-  **Medium** — 6-8 items, moderate patterns, varied objects
+-  **Hard** — 8-12 items, complex patterns, challenge objects
 
 ### Daily Cognitive Plan
 The system generates a personalized daily plan based on:
@@ -327,15 +327,15 @@ MindCare AI supports 4 languages out of the box, with an extensible translation 
 | Bengali | `bn` | Full |
 
 ### Translation Coverage
-- ✅ Navigation labels
-- ✅ Medication reminders
-- ✅ Cognitive game instructions
-- ✅ Daily routine text
-- ✅ Hydration prompts
-- ✅ Appointment labels
-- ✅ Voice assistant responses
-- ✅ Alert messages
-- ✅ System messages and disclaimers
+-  Navigation labels
+-  Medication reminders
+-  Cognitive game instructions
+-  Daily routine text
+-  Hydration prompts
+-  Appointment labels
+-  Voice assistant responses
+-  Alert messages
+-  System messages and disclaimers
 
 ### Adding New Languages
 To add a new NER language (e.g., Manipuri, Mizo, Naga):
@@ -351,19 +351,19 @@ To add a new NER language (e.g., Manipuri, Mizo, Naga):
 
 MindCare AI is specifically designed for the NER:
 
-- 🗣️ **Regional Languages** — Assamese, Bengali, Hindi supported natively
-- 🏔️ **Culturally Familiar Content** — Cognitive games include NER-relevant objects
-- 🌐 **Low-Connectivity Architecture** — PWA with offline-first design
-- 📱 **Simple Interface** — Designed for users with limited tech experience
-- 👨‍👩‍👦 **Caregiver Connectivity** — Remote monitoring for distributed families
+-  **Regional Languages** — Assamese, Bengali, Hindi supported natively
+-  **Culturally Familiar Content** — Cognitive games include NER-relevant objects
+-  **Low-Connectivity Architecture** — PWA with offline-first design
+-  **Simple Interface** — Designed for users with limited tech experience
+-  **Caregiver Connectivity** — Remote monitoring for distributed families
 
 ### NER Content in Cognitive Games
-- 🪷 Lotus (India's national flower)
-- 🍵 Tea (NER's primary crop)
-- 🎋 Bamboo (widely used in NER culture)
-- 🐘 Elephant (familiar to NER wildlife)
-- 🏔️ Mountains (NER landscape)
-- 🍜 Regional foods and household items
+-  Lotus (India's national flower)
+-  Tea (NER's primary crop)
+-  Bamboo (widely used in NER culture)
+-  Elephant (familiar to NER wildlife)
+-  Mountains (NER landscape)
+-  Regional foods and household items
 
 ---
 
@@ -372,17 +372,17 @@ MindCare AI is specifically designed for the NER:
 MindCare AI is built as a **Progressive Web App (PWA)** with offline-first architecture:
 
 ### What Works Offline
-- ✅ Medication schedules and logging
-- ✅ All 4 cognitive games
-- ✅ Daily routine tracking
-- ✅ Hydration logging
-- ✅ Voice assistant (text fallback)
-- ✅ Appointment viewing
+-  Medication schedules and logging
+-  All 4 cognitive games
+-  Daily routine tracking
+-  Hydration logging
+-  Voice assistant (text fallback)
+-  Appointment viewing
 
 ### What Requires Connectivity
-- 🔄 Syncing pending activity results
-- 🔄 Loading new cognitive content
-- 🔄 Caregiver alert delivery
+-  Syncing pending activity results
+-  Loading new cognitive content
+-  Caregiver alert delivery
 
 ### Connectivity Indicator
 - 🟢 **Synced** — All data is current
@@ -392,10 +392,10 @@ MindCare AI is built as a **Progressive Web App (PWA)** with offline-first archi
 
 ## Security
 
-- 🔐 **Authentication** — Email/password login with role-based access
-- 👤 **Role-Based Authorization** — Patients see only their own data; caregivers see only assigned patients
-- 🔒 **Local-First Data** — Data stored in IndexedDB, not sent to external servers
-- 🛡️ **No Public Exposure** — Private patient information is never publicly accessible
+-  **Authentication** — Email/password login with role-based access
+-  **Role-Based Authorization** — Patients see only their own data; caregivers see only assigned patients
+-  **Local-First Data** — Data stored in IndexedDB, not sent to external servers
+-  **No Public Exposure** — Private patient information is never publicly accessible
 
 ---
 
@@ -413,8 +413,8 @@ This project was developed for **Smart India Hackathon 2026** under problem stat
 
 <div align="center">
 
-**Built with ❤️ for the North Eastern Region**
+**Built with love for the North Eastern Region**
 
-🧠 MindCare AI — *Smarter Care. Simpler Days. Better Ageing.*
+ MindCare AI — *Smarter Care. Simpler Days. Better Ageing.*
 
 </div>
